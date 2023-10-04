@@ -1,0 +1,19 @@
+#!/bin/bash
+pwd
+ls -al
+if  test -f monfichier.txt 
+then
+	echo"Le fichier existe"
+else	
+	echo"Le fichier n'existe pas"
+fi
+echo "test">>monfichier.txt
+if  test -f monfichier.txt
+then
+        echo"Le fichier existe"
+else
+        echo"Le fichier n'existe pas"
+fi
+ls -al
+
+

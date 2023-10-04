@@ -1,19 +1,20 @@
 #!/bin/bash
 pwd
-ls -al
+ls 
 if  test -f monfichier.txt 
 then
-	echo"Le fichier existe"
+	echo "Le fichier existe"
 else	
-	echo"Le fichier n'existe pas"
+	echo "Le fichier n'existe pas"
 fi
 echo "test">>monfichier.txt
+ls  
 if  test -f monfichier.txt
 then
-        echo"Le fichier existe"
+        echo "Le fichier existe "
 else
-        echo"Le fichier n'existe pas"
+        echo "Le fichier n'existe pas"
 fi
-ls -al
+ls 
 
 
